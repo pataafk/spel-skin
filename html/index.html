@@ -4,38 +4,27 @@
   <meta charset="utf-8" />
   <title></title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link href='' rel='stylesheet' />
-  <link href="spel.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/spel.css">
 </head>
 <body class="startpage">
   <header>
     <div id="mySidenav" class="hwrap">
-      <a href="./"><img class="logo" alt="Startsidan" src="img/laxlogo.png" /></a>
+      <a href="./"><img class="logo" alt="Startsidan" src="img/Webbbackground.png" /></a>
       <h1></h1>
     </div>
     <p class="tagline"></p>
   </header>
-  <section id="mySidenav" class="menu">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <h2><a href="om-oss.php">Home coming</a></h2>
-    <p></p>
-  </section>
-  <section id="mySidenav" class="menu">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <h2><a href="arbeten.php">???</a></h2>
-    <p>&shy;</p>
-  </section>
-  <section id="mySidenav" class="menu">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <h2><a href="blog.php">Dawid </a></h2>
-    <p></p>
-  </section>
-  <section id="mySidenav" class="menu">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <h2><a href="account.php">register.</a></h2>
-    <p></p>
-  </section>
-  <span href="javascript:void(250)" style="font-size:30px;cursor:pointer" onclick="openNav()">welcome</span>
+  <script src="script/sidenav.js"></script>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">ello</a>
+    <a href="#">download</a>
+    <a href="#">info</a>
+    <a href="#">hola</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+  
   <footer>
     <small>&copy;</small>
   </footer>

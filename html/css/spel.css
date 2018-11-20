@@ -9,7 +9,7 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-.menu {
+.sidenav {
     height: 100%;
     width: 0;
     position: fixed;
@@ -22,7 +22,7 @@ body {
     padding-top: 60px;
 }
 
-.menu a {
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -31,11 +31,11 @@ body {
     transition: 0.3s;
 }
 
-.menu a:hover {
+.sidenav a:hover {
     color: #f1f1f1;
 }
 
-.menu .closebtn {
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -44,39 +44,11 @@ body {
 }
 
 @media screen and (max-height: 450px) {
-  .menu {padding-top: 15px;}
-  .menu a {font-size: 18px;}
-}
-
-div {
-    margin: auto;
-    max-width: 860px;
-    font-family: "Helvetica Neue", "Liberation Sans", Calibri, Arial, sans-serif;
-    font-size: 100%;
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
 
-section {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #000;
-    border-right: 1px solid #bbb;
-}
 
-section {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    float: left;
-}
-
-/* Change the link color to #111 (black) on hover */
-section:hover {
-    background-color: #222;
-}
 
 
