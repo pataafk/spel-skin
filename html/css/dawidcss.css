@@ -2,10 +2,17 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("isaac.jpg");
+    background-image: url("../img/isaac.jpg");
+    background-size: cover;
 }
 
-#testID{
+#header{
+    text-align: center;
     font-size: 400%;
-    color: aqua;
+    color: gray;
+}
+
+#p{
+    color:gray;
+    margin-left: 28%;
 }
