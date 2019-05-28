@@ -8,7 +8,7 @@
   <title>Dö</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link href="css/spel.css" rel="stylesheet" />
-  
+  <script> alert('Hej i filen'); </script>
 </head>
 <body class="startpage">
   <header>
@@ -22,10 +22,11 @@
 </div>
   
 
-  <script src="script/sidenav.js"></script>
+ 
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">welcome</span>
   <footer>
     <small>&copy;</small>
   </footer>
+  <script src="script\test.js"></script>
 </body>
 </html>
